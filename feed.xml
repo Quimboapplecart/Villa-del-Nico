@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:77214D7E-6206-4420-A9FE-9742E35F0BF3</id>
+ <title>Page list Atom feed</title>
+ <updated>2014-02-04T14:43:11+08:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:A4EA131F-50DF-4BAB-9E56-F450473D9AA0</id>
+  <title>Villa del Nico Room Rates</title>
+  <title xmlns="urn:iweb:">Villa del Nico Room Rates</title>
+  <in-navbar xmlns="urn:iweb:">A4EA131F-50DF-4BAB-9E56-F450473D9AA0</in-navbar>
+  <link rel="alternate" href="Villa_del_Nico_Room_Rates.html"/>
+  <updated>2014-02-04T14:43:11.001+08:00</updated>
+  <content>Villa del Nico Room Rates</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:0CDBAC33-074C-46FF-8D20-FA772BFFCD41</id>
+  <title>Villa del Nico Activities</title>
+  <title xmlns="urn:iweb:">Villa del Nico Activities</title>
+  <in-navbar xmlns="urn:iweb:">0CDBAC33-074C-46FF-8D20-FA772BFFCD41</in-navbar>
+  <link rel="alternate" href="Villa_del_Nico_Activities.html"/>
+  <updated>2014-02-04T14:43:11.002+08:00</updated>
+  <content>Villa del Nico Activities</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:6024A6BC-E28C-4956-A162-16D082971B93</id>
+  <title>Villa del Nico Location</title>
+  <title xmlns="urn:iweb:">Villa del Nico Location</title>
+  <in-navbar xmlns="urn:iweb:">6024A6BC-E28C-4956-A162-16D082971B93</in-navbar>
+  <link rel="alternate" href="Villa_del_Nico_Location.html"/>
+  <updated>2014-02-04T14:43:11.003+08:00</updated>
+  <content>Villa del Nico Location</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:89D03602-69BC-45B9-BE9D-4B9DD72C6C9C</id>
+  <title>Villa del Nico Contact</title>
+  <title xmlns="urn:iweb:">Villa del Nico Contact</title>
+  <in-navbar xmlns="urn:iweb:">89D03602-69BC-45B9-BE9D-4B9DD72C6C9C</in-navbar>
+  <link rel="alternate" href="Villa_del_Nico_Contact.html"/>
+  <updated>2014-02-04T14:43:11.004+08:00</updated>
+  <content>Villa del Nico Contact</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:358DE2E6-3E65-4172-8CD4-AC7DBD9B8C84</id>
+  <title>Villa del Nico Gallery</title>
+  <title xmlns="urn:iweb:">Villa del Nico Gallery</title>
+  <in-navbar xmlns="urn:iweb:">358DE2E6-3E65-4172-8CD4-AC7DBD9B8C84</in-navbar>
+  <link rel="alternate" href="Villa_del_Nico_Gallery.html"/>
+  <updated>2014-02-04T14:43:11.005+08:00</updated>
+  <content>Villa del Nico Gallery</content>
+ </entry>
+</feed>
