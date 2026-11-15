@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>Contact | Villa del Nico</title><style>
+:root{--green:#003c2b;--dark:#00291e;--gold:#e7bf63;--cream:#fff7e7}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0,#115c42 0,#003b2b 38%,#00291e 100%);color:var(--cream);font-family:Georgia,'Times New Roman',serif;text-align:center}.shared-header{padding:0 0 14px;text-align:center;background:linear-gradient(120deg,#002d18,#06542c,#002d18)}.brand-banner{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;margin:auto}.shared-nav{display:flex;gap:8px;max-width:1200px;margin:0 auto;padding:0 16px}.shared-nav a{flex:1;display:flex;justify-content:center;align-items:center;min-width:0;text-decoration:none;border:2px solid #e4bb55;border-radius:14px;padding:12px 4px;font:bold clamp(10px,1.25vw,17px) Arial,sans-serif;color:white;background:transparent;white-space:nowrap}.shared-nav a.active{background:#eec965;color:#002b17}.wrap{max-width:1160px;margin:auto;padding:8px 22px 60px}h1{font-size:clamp(26px,3.4vw,44px);color:var(--gold);margin:18px 0 4px;text-shadow:0 3px 6px #001b15}h2{font-size:clamp(24px,3vw,32px);color:var(--gold);margin:0 0 15px}.intro{font-size:20px;font-style:italic;margin:0 0 25px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.panel{border:2px solid var(--gold);border-radius:20px;background:linear-gradient(150deg,#064b36,#003024);padding:25px;box-shadow:0 10px 22px #001f17}.full{grid-column:1/-1}.panel p{font-size:18px;line-height:1.65;margin:8px auto;max-width:850px}.contact-label{font-size:16px;color:#f2d58b;font-weight:bold;margin-top:14px}.contact-link{color:white;text-decoration:none;overflow-wrap:anywhere;font-size:21px}.contact-link:hover{text-decoration:underline}.button{display:inline-block;margin-top:12px;background:linear-gradient(#ffedae,#d7a33a);color:#143324;text-decoration:none;border-radius:30px;padding:12px 22px;font-weight:bold}.small{font-size:16px!important}.age{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:15px}.age span{border:1px solid #bd9c58;border-radius:14px;padding:12px 20px;min-width:180px;font-size:18px}footer{color:#e8c77e;margin-top:32px}@media(max-width:700px){.grid{grid-template-columns:1fr}.shared-nav{gap:4px;padding:0 5px}.shared-nav a{font-size:9px;padding:10px 2px;border-radius:7px;white-space:normal;text-align:center}.wrap{padding:8px 12px 40px}.panel{padding:18px}.contact-link{font-size:18px}}
+
+/* Booking deposit statement: one line on wider screens, wrapping naturally on mobile */
+@media(min-width:1050px){.deposit-statement{white-space:nowrap;font-size:clamp(12px,1.15vw,16px)!important;max-width:none!important;letter-spacing:-.15px}}
+
+/* VDN-07: uniform introductory comments on all five internal pages */
+.intro{color:#ffffff!important;font-family:Georgia,"Times New Roman",serif!important;font-size:22px!important;line-height:1.45!important;text-align:center!important;}
+
+/* ZIP 09: shared typography rules for the five internal pages.
+   Existing photographs, content, navigation and HOME are unchanged. */
+h1, h1.page-heading {
+  font-family:Georgia,"Times New Roman",serif !important;
+  font-size:clamp(26px,3.4vw,44px) !important;
+  font-weight:700 !important;
+  font-style:normal !important;
+  line-height:1.2 !important;
+  text-align:center !important;
+  margin:12px 0 7px !important;
+}
+h2 {
+  font-family:Georgia,"Times New Roman",serif !important;
+  font-size:clamp(20px,2.4vw,29px) !important;
+  font-weight:700 !important;
+  font-style:normal !important;
+  line-height:1.25 !important;
+  text-align:center !important;
+}
+.intro,.tagline {
+  color:#fff !important;
+  font-family:Georgia,"Times New Roman",serif !important;
+  font-size:22px !important;
+  line-height:1.45 !important;
+  text-align:center !important;
+}
+
+/* VDN 43: centre the Get in Touch panel without changing its contents. */
+.grid .contact-centred{grid-column:1/-1;width:100%;max-width:680px;justify-self:center;text-align:center;}
+</style><style>
+/* VDN V2 APPROVED CONSISTENT TYPOGRAPHY — non-HOME pages only.
+   Font families: Georgia for text/headings; Arial for navigation.
+   This section overrides typography only; no content/media/layout edits. */
+body {font-family:Georgia,'Times New Roman',serif; font-size:18px;}
+nav a, .shared-nav a {font-family:Arial,Helvetica,sans-serif!important; font-size:clamp(12px,1.35vw,17px)!important; font-weight:700!important;}
+h1, main > h2, .wrap > h2 {font-family:Georgia,'Times New Roman',serif!important; font-size:clamp(26px,3.4vw,44px)!important; font-style:normal!important; font-weight:700!important;}
+h2, .panel h2, .detail h2, .group h2, .rates h2 {font-family:Georgia,'Times New Roman',serif!important; font-size:clamp(20px,2.4vw,29px)!important; font-style:normal!important; font-weight:700!important;}
+main p, .panel p, .detail p, .intro, .note, .group p, .rates p {font-family:Georgia,'Times New Roman',serif!important; font-size:clamp(15px,1.5vw,18px)!important;}
+article b, .contact-label {font-family:Georgia,'Times New Roman',serif!important; font-size:18px!important;}
+article small, .small {font-family:Georgia,'Times New Roman',serif!important; font-size:15px!important;}
+.contact-link {font-family:Georgia,'Times New Roman',serif!important; font-size:18px!important;}
+.rates table, .rates th, .rates td {font-family:Georgia,'Times New Roman',serif!important; font-size:clamp(14px,1.45vw,17px)!important;}
+/* Keep the existing decorative brand/header artwork and existing page layouts intact. */
+</style><style>
+/* IDENTICAL MASTER HEADER ON ALL FIVE INTERNAL PAGES */
+.vdn-master{position:relative!important;display:block!important;width:100%!important;max-width:none!important;margin:0!important;padding:0 0 18px!important;background:#003c2a!important;border:0!important;box-shadow:none!important;min-height:0!important;height:auto!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;box-sizing:border-box!important}
+.vdn-master *, .vdn-master *:before,.vdn-master *:after{box-sizing:border-box!important}
+.vdn-master-art{height:clamp(75px,9.55vw,190px)!important;width:100%!important;background-image:url('master-header-reference.png')!important;background-position:center top!important;background-repeat:no-repeat!important;background-size:100% auto!important;display:block!important;margin:0!important;padding:0!important}
+.vdn-master-nav{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;align-items:center!important;gap:0!important;width:calc(100% - 5.6%)!important;max-width:none!important;margin:0 auto!important;height:clamp(40px,3.55vw,70px)!important;min-height:0!important;padding:3px!important;border:3px solid #f3c554!important;border-radius:999px!important;background:#002d22!important;box-shadow:0 5px 10px #00180f99!important;overflow:hidden!important}
+.vdn-master-nav a{position:relative!important;display:flex!important;align-items:center!important;justify-content:center!important;height:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0 3px!important;border:0!important;border-radius:999px!important;background:transparent!important;box-shadow:none!important;color:#fff!important;text-shadow:none!important;text-decoration:none!important;font-family:Arial,Helvetica,sans-serif!important;font-weight:700!important;font-style:normal!important;letter-spacing:0!important;font-size:clamp(10px,1.25vw,23px)!important;line-height:1.1!important;white-space:nowrap!important;flex:none!important;width:auto!important;transform:none!important}
+.vdn-master-nav a+a:before{content:"";position:absolute;left:0;top:28%;height:44%;width:2px;background:#efbf53}
+.vdn-master-nav a[aria-current="page"]{background:linear-gradient(#ffe591,#e8b83d)!important;color:#003321!important;text-shadow:none!important}
+.vdn-master-nav a[aria-current="page"]:before,.vdn-master-nav a[aria-current="page"]+a:before{display:none!important}
+@media(max-width:650px){.vdn-master{padding-bottom:10px!important}.vdn-master-nav{width:98%!important;border-width:2px!important;height:38px!important}.vdn-master-nav a{font-size:clamp(7px,1.8vw,11px)!important;padding:0 1px!important}.vdn-master-art{height:9.55vw!important;min-height:0!important}}
+</style><style id="vdn-10-shared-typography">
+/* VDN 10: final common typography specification — identical on all five internal pages. */
+html body {font-family:Georgia,"Times New Roman",serif!important;font-size:18px!important;line-height:1.5!important}
+body h1,body h1.page-heading {font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(26px,3.4vw,44px)!important;font-style:normal!important;font-weight:700!important;line-height:1.2!important;letter-spacing:normal!important;text-transform:none!important;text-align:center!important;margin:12px auto 8px!important}
+body h2 {font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(20px,2.4vw,29px)!important;font-style:normal!important;font-weight:700!important;line-height:1.25!important;letter-spacing:normal!important;text-align:center!important}
+body h3 {font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(18px,2vw,23px)!important;font-style:normal!important;font-weight:700!important;line-height:1.3!important;text-align:center!important}
+body p,body li {font-family:Georgia,"Times New Roman",serif!important;font-size:18px!important;line-height:1.5!important;text-align:center!important}
+body .intro,body .tagline,body p.sub {font-family:Georgia,"Times New Roman",serif!important;font-size:22px!important;line-height:1.45!important;color:#fff!important;text-align:center!important;font-weight:400!important}
+body .vdn-master-nav a {font-family:Arial,Helvetica,sans-serif!important;font-weight:700!important;font-size:clamp(10px,1.25vw,17px)!important;line-height:1.15!important;text-align:center!important}
+@media(max-width:650px){body .vdn-master-nav a{font-size:clamp(7px,1.8vw,11px)!important}}
+</style><style id="vdn-back-to-top-style">html{scroll-behavior:smooth}.vdn-back-to-top-wrap{text-align:center;padding:0 12px 30px}.vdn-back-to-top{display:inline-block;background:#123d25;color:#f1d07a;border:2px solid #d6ad55;border-radius:8px;padding:12px 25px;font:700 17px/1.3 Georgia,"Times New Roman",serif;text-decoration:none;letter-spacing:.03em;box-shadow:0 3px 10px #0005}.vdn-back-to-top:hover,.vdn-back-to-top:focus-visible{background:#d6ad55;color:#103b24;outline-offset:3px}</style><style id="vdn-53-footer-button-spacing">footer{margin-bottom:24px!important}.vdn-back-to-top-wrap{padding-top:0!important}</style></head><body id="vdn-page-top"><div class="vdn-master"><div aria-label="Villa del Nico, Pagudpud - Ilocos Norte - Philippines" class="vdn-master-art" role="img"></div><nav aria-label="Main navigation" class="vdn-master-nav"><a href="index.html">HOME</a><a href="villa-rates.html">VILLA RATES</a><a href="activities.html">ACTIVITIES</a><a href="location.html">LOCATION</a><a aria-current="page" href="contact.html">CONTACT</a><a href="gallery.html">GALLERY</a></nav></div><main class="wrap"><h1>Contact</h1><p class="intro">We look forward to welcoming you to Villa del Nico.</p><div class="grid"><section class="panel contact-centred"><h2>Get in Touch</h2><div class="contact-label">General Inquiries</div><p><a class="contact-link" href="mailto:nico@villadelnico.ph">nico@villadelnico.ph</a></p><div class="contact-label">Villa Manager</div><p><a class="contact-link" href="tel:+639660792828">+63 966 079 2828</a></p><a class="button" href="mailto:nico@villadelnico.ph?subject=Villa%20del%20Nico%20Booking%20Inquiry">Email for Bookings</a></section><section class="panel full"><h2>Reservations</h2><p class="deposit-statement">To confirm reservations, an advance down payment equivalent to <strong>50% of the total Villa hire cost</strong> is required.</p><p>Payments may be transferred or deposited into <strong>PNB Bank, G-Cash or PayPal</strong> accounts.</p><p class="small">Payment details are emailed once a booking is initiated.</p></section><section class="panel full"><h2>Cancellations</h2><p>Cancellations must be made at least <strong>7 days before arrival</strong>; otherwise, the deposited amount will be forfeited. If the booking is moved to a later date, the deposit may still be applied.</p></section><section class="panel full"><h2>Villa Age Policy</h2><div class="age"><span><strong>Infant</strong><br/>5 and below</span><span><strong>Child</strong><br/>6 to 12</span><span><strong>Adult</strong><br/>13 and above</span></div></section></div><footer>Villa del Nico · Pagudpud · Ilocos Norte · Philippines</footer><div class="vdn-back-to-top-wrap"><a class="vdn-back-to-top" href="#vdn-page-top" aria-label="Back to top of page">↑ BACK TO TOP</a></div></main></body></html>
